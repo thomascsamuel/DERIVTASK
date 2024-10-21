@@ -1,0 +1,8 @@
+{
+    "websocket_url": "wss://ws.binaryws.com/websockets/v3?app_id=1234",
+    "valid_request": "{\"states_list\": \"id\"}",
+    "invalid_request": "{\"states_list\": \"xyz\"}",
+    "empty_request": "{}",
+    "malformed_request": "{\"states_list\": \"id\",",
+    "expected_states_list_keys": ["text", "value"]
+}

@@ -1,0 +1,288 @@
+2024-10-21 17:52:28,824 - INFO - WebSocket connection established.
+2024-10-21 17:52:28,825 - INFO - WebSocket connection opened.
+2024-10-21 17:52:28,825 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 17:52:29,109 - INFO - WebSocket connection closed.
+2024-10-21 17:52:29,109 - INFO - WebSocket connection closed.
+2024-10-21 17:52:30,025 - INFO - WebSocket connection established.
+2024-10-21 17:52:30,026 - INFO - WebSocket connection opened.
+2024-10-21 17:52:30,405 - INFO - WebSocket connection closed.
+2024-10-21 17:52:30,406 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 17:52:30,406 - INFO - WebSocket connection closed.
+2024-10-21 17:52:30,406 - INFO - WebSocket connection closed.
+2024-10-21 17:52:31,319 - INFO - WebSocket connection established.
+2024-10-21 17:52:31,320 - INFO - WebSocket connection opened.
+2024-10-21 17:52:31,320 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 17:52:31,321 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 17:52:31,599 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 17:52:31,599 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 17:52:31,599 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 17:52:31,884 - INFO - WebSocket connection closed.
+2024-10-21 17:52:31,884 - INFO - WebSocket connection closed.
+2024-10-21 17:52:32,856 - INFO - WebSocket connection established.
+2024-10-21 17:52:32,857 - INFO - WebSocket connection opened.
+2024-10-21 17:52:32,857 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 17:52:32,857 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 17:52:33,154 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 17:52:33,155 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 17:52:33,155 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 17:52:33,536 - INFO - WebSocket connection closed.
+2024-10-21 17:52:33,536 - INFO - WebSocket connection closed.
+2024-10-21 17:52:34,457 - INFO - WebSocket connection established.
+2024-10-21 17:52:34,458 - INFO - WebSocket connection opened.
+2024-10-21 17:52:34,458 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 17:52:34,461 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 17:52:34,461 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 17:52:34,765 - INFO - WebSocket connection closed.
+2024-10-21 17:52:34,765 - INFO - WebSocket connection closed.
+2024-10-21 18:00:08,564 - INFO - WebSocket connection established.
+2024-10-21 18:00:08,564 - INFO - WebSocket connection opened.
+2024-10-21 18:00:08,564 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:00:08,912 - INFO - WebSocket connection closed.
+2024-10-21 18:00:08,913 - INFO - WebSocket connection closed.
+2024-10-21 18:00:09,816 - INFO - WebSocket connection established.
+2024-10-21 18:00:09,816 - INFO - WebSocket connection opened.
+2024-10-21 18:00:10,100 - INFO - WebSocket connection closed.
+2024-10-21 18:00:10,100 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:00:10,100 - INFO - WebSocket connection closed.
+2024-10-21 18:00:10,100 - INFO - WebSocket connection closed.
+2024-10-21 18:00:11,060 - INFO - WebSocket connection established.
+2024-10-21 18:00:11,060 - INFO - WebSocket connection opened.
+2024-10-21 18:00:11,060 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:00:11,061 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:00:11,345 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:00:11,346 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:00:11,346 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:00:11,637 - INFO - WebSocket connection closed.
+2024-10-21 18:00:11,637 - INFO - WebSocket connection closed.
+2024-10-21 18:00:12,544 - INFO - WebSocket connection established.
+2024-10-21 18:00:12,545 - INFO - WebSocket connection opened.
+2024-10-21 18:00:12,545 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:00:12,545 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:00:12,823 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:00:12,823 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:00:12,823 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:00:13,213 - INFO - WebSocket connection closed.
+2024-10-21 18:00:13,214 - INFO - WebSocket connection closed.
+2024-10-21 18:00:14,236 - INFO - WebSocket connection established.
+2024-10-21 18:00:14,237 - INFO - WebSocket connection opened.
+2024-10-21 18:00:14,237 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:00:14,245 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:00:14,245 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:00:14,518 - INFO - WebSocket connection closed.
+2024-10-21 18:00:14,519 - INFO - WebSocket connection closed.
+2024-10-21 18:00:24,373 - INFO - WebSocket connection established.
+2024-10-21 18:00:24,373 - INFO - WebSocket connection opened.
+2024-10-21 18:00:24,373 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:00:24,657 - INFO - WebSocket connection closed.
+2024-10-21 18:00:24,657 - INFO - WebSocket connection closed.
+2024-10-21 18:00:25,535 - INFO - WebSocket connection established.
+2024-10-21 18:00:25,536 - INFO - WebSocket connection opened.
+2024-10-21 18:00:25,809 - INFO - WebSocket connection closed.
+2024-10-21 18:00:25,809 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:00:25,809 - INFO - WebSocket connection closed.
+2024-10-21 18:00:25,809 - INFO - WebSocket connection closed.
+2024-10-21 18:00:26,671 - INFO - WebSocket connection established.
+2024-10-21 18:00:26,671 - INFO - WebSocket connection opened.
+2024-10-21 18:00:26,672 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:00:26,672 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:00:26,937 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:00:26,937 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:00:26,938 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:00:27,208 - INFO - WebSocket connection closed.
+2024-10-21 18:00:27,208 - INFO - WebSocket connection closed.
+2024-10-21 18:00:28,138 - INFO - WebSocket connection established.
+2024-10-21 18:00:28,138 - INFO - WebSocket connection opened.
+2024-10-21 18:00:28,138 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:00:28,138 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:00:28,421 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:00:28,421 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:00:28,422 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:00:28,711 - INFO - WebSocket connection closed.
+2024-10-21 18:00:28,712 - INFO - WebSocket connection closed.
+2024-10-21 18:00:29,647 - INFO - WebSocket connection established.
+2024-10-21 18:00:29,648 - INFO - WebSocket connection opened.
+2024-10-21 18:00:29,648 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:00:29,651 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:00:29,651 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:00:29,945 - INFO - WebSocket connection closed.
+2024-10-21 18:00:29,945 - INFO - WebSocket connection closed.
+2024-10-21 18:01:26,632 - INFO - WebSocket connection established.
+2024-10-21 18:01:26,633 - INFO - WebSocket connection opened.
+2024-10-21 18:01:26,634 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:01:26,935 - INFO - WebSocket connection closed.
+2024-10-21 18:01:26,936 - INFO - WebSocket connection closed.
+2024-10-21 18:01:27,881 - INFO - WebSocket connection established.
+2024-10-21 18:01:27,882 - INFO - WebSocket connection opened.
+2024-10-21 18:01:28,177 - INFO - WebSocket connection closed.
+2024-10-21 18:01:28,178 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:01:28,178 - INFO - WebSocket connection closed.
+2024-10-21 18:01:28,178 - INFO - WebSocket connection closed.
+2024-10-21 18:01:29,089 - INFO - WebSocket connection established.
+2024-10-21 18:01:29,089 - INFO - WebSocket connection opened.
+2024-10-21 18:01:29,090 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:01:29,090 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:01:29,356 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:01:29,357 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:01:29,357 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:01:29,706 - INFO - WebSocket connection closed.
+2024-10-21 18:01:29,706 - INFO - WebSocket connection closed.
+2024-10-21 18:01:30,638 - INFO - WebSocket connection established.
+2024-10-21 18:01:30,638 - INFO - WebSocket connection opened.
+2024-10-21 18:01:30,638 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:01:30,638 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:01:30,919 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:01:30,920 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:01:30,920 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:01:31,206 - INFO - WebSocket connection closed.
+2024-10-21 18:01:31,206 - INFO - WebSocket connection closed.
+2024-10-21 18:01:32,162 - INFO - WebSocket connection established.
+2024-10-21 18:01:32,162 - INFO - WebSocket connection opened.
+2024-10-21 18:01:32,162 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:01:32,171 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:01:32,172 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:01:32,450 - INFO - WebSocket connection closed.
+2024-10-21 18:01:32,450 - INFO - WebSocket connection closed.
+2024-10-21 18:06:55,950 - INFO - WebSocket connection established.
+2024-10-21 18:06:55,951 - INFO - WebSocket connection opened.
+2024-10-21 18:06:55,952 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:06:56,400 - INFO - WebSocket connection closed.
+2024-10-21 18:06:56,401 - INFO - WebSocket connection closed.
+2024-10-21 18:06:57,324 - INFO - WebSocket connection established.
+2024-10-21 18:06:57,324 - INFO - WebSocket connection opened.
+2024-10-21 18:06:57,614 - INFO - WebSocket connection closed.
+2024-10-21 18:06:57,614 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:06:57,614 - INFO - WebSocket connection closed.
+2024-10-21 18:06:57,614 - INFO - WebSocket connection closed.
+2024-10-21 18:06:58,614 - INFO - WebSocket connection established.
+2024-10-21 18:06:58,614 - INFO - WebSocket connection opened.
+2024-10-21 18:06:58,614 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:06:58,615 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:06:59,022 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:06:59,023 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:06:59,023 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:06:59,333 - INFO - WebSocket connection closed.
+2024-10-21 18:06:59,333 - INFO - WebSocket connection closed.
+2024-10-21 18:07:00,253 - INFO - WebSocket connection established.
+2024-10-21 18:07:00,253 - INFO - WebSocket connection opened.
+2024-10-21 18:07:00,253 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:07:00,254 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:07:00,538 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:07:00,538 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:07:00,538 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:07:00,869 - INFO - WebSocket connection closed.
+2024-10-21 18:07:00,870 - INFO - WebSocket connection closed.
+2024-10-21 18:07:01,891 - INFO - WebSocket connection established.
+2024-10-21 18:07:01,891 - INFO - WebSocket connection opened.
+2024-10-21 18:07:01,892 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:07:01,902 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:07:01,902 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:07:02,205 - INFO - WebSocket connection closed.
+2024-10-21 18:07:02,206 - INFO - WebSocket connection closed.
+2024-10-21 18:11:56,124 - INFO - WebSocket connection established.
+2024-10-21 18:11:56,124 - INFO - WebSocket connection opened.
+2024-10-21 18:11:56,124 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:11:56,423 - INFO - WebSocket connection closed.
+2024-10-21 18:11:56,423 - INFO - WebSocket connection closed.
+2024-10-21 18:11:57,398 - INFO - WebSocket connection established.
+2024-10-21 18:11:57,398 - INFO - WebSocket connection opened.
+2024-10-21 18:11:57,705 - INFO - WebSocket connection closed.
+2024-10-21 18:11:57,705 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:11:57,706 - INFO - WebSocket connection closed.
+2024-10-21 18:11:57,706 - INFO - WebSocket connection closed.
+2024-10-21 18:11:58,748 - INFO - WebSocket connection established.
+2024-10-21 18:11:58,748 - INFO - WebSocket connection opened.
+2024-10-21 18:11:58,748 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:11:58,748 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:11:59,158 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:11:59,159 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:11:59,159 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:11:59,452 - INFO - WebSocket connection closed.
+2024-10-21 18:11:59,453 - INFO - WebSocket connection closed.
+2024-10-21 18:12:00,387 - INFO - WebSocket connection established.
+2024-10-21 18:12:00,388 - INFO - WebSocket connection opened.
+2024-10-21 18:12:00,388 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:12:00,388 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:12:00,655 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:12:00,655 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:12:00,655 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:12:01,003 - INFO - WebSocket connection closed.
+2024-10-21 18:12:01,004 - INFO - WebSocket connection closed.
+2024-10-21 18:12:02,026 - INFO - WebSocket connection established.
+2024-10-21 18:12:02,027 - INFO - WebSocket connection opened.
+2024-10-21 18:12:02,027 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:12:02,037 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:12:02,037 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:12:02,436 - INFO - WebSocket connection closed.
+2024-10-21 18:12:02,436 - INFO - WebSocket connection closed.
+2024-10-21 18:12:16,346 - INFO - WebSocket connection established.
+2024-10-21 18:12:16,347 - INFO - WebSocket connection opened.
+2024-10-21 18:12:16,347 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:12:16,623 - INFO - WebSocket connection closed.
+2024-10-21 18:12:16,623 - INFO - WebSocket connection closed.
+2024-10-21 18:12:17,530 - INFO - WebSocket connection established.
+2024-10-21 18:12:17,530 - INFO - WebSocket connection opened.
+2024-10-21 18:12:17,810 - INFO - WebSocket connection closed.
+2024-10-21 18:12:17,810 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:12:17,810 - INFO - WebSocket connection closed.
+2024-10-21 18:12:17,810 - INFO - WebSocket connection closed.
+2024-10-21 18:12:18,820 - INFO - WebSocket connection established.
+2024-10-21 18:12:18,820 - INFO - WebSocket connection opened.
+2024-10-21 18:12:18,820 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:12:18,821 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:12:19,113 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:12:19,113 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:12:19,113 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:12:19,417 - INFO - WebSocket connection closed.
+2024-10-21 18:12:19,417 - INFO - WebSocket connection closed.
+2024-10-21 18:12:20,327 - INFO - WebSocket connection established.
+2024-10-21 18:12:20,328 - INFO - WebSocket connection opened.
+2024-10-21 18:12:20,328 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:12:20,328 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:12:20,611 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:12:20,611 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:12:20,611 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:12:20,904 - INFO - WebSocket connection closed.
+2024-10-21 18:12:20,905 - INFO - WebSocket connection closed.
+2024-10-21 18:12:21,761 - INFO - WebSocket connection established.
+2024-10-21 18:12:21,762 - INFO - WebSocket connection opened.
+2024-10-21 18:12:21,762 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:12:21,766 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:12:21,766 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:12:22,044 - INFO - WebSocket connection closed.
+2024-10-21 18:12:22,044 - INFO - WebSocket connection closed.
+2024-10-21 18:22:14,055 - INFO - WebSocket connection established.
+2024-10-21 18:22:14,056 - INFO - WebSocket connection opened.
+2024-10-21 18:22:14,056 - INFO - SUCCESS - test_TC001_UT_Open_Connection
+2024-10-21 18:22:14,377 - INFO - WebSocket connection closed.
+2024-10-21 18:22:14,378 - INFO - WebSocket connection closed.
+2024-10-21 18:22:15,371 - INFO - WebSocket connection established.
+2024-10-21 18:22:15,372 - INFO - WebSocket connection opened.
+2024-10-21 18:22:15,650 - INFO - WebSocket connection closed.
+2024-10-21 18:22:15,651 - INFO - SUCCESS - test_TC002_UT_Close_Connection
+2024-10-21 18:22:15,651 - INFO - WebSocket connection closed.
+2024-10-21 18:22:15,651 - INFO - WebSocket connection closed.
+2024-10-21 18:22:16,518 - INFO - WebSocket connection established.
+2024-10-21 18:22:16,519 - INFO - WebSocket connection opened.
+2024-10-21 18:22:16,519 - INFO - Sending request: {'method': 'subscribe', 'params': {'channel': 'states_list'}}
+2024-10-21 18:22:16,522 - INFO - Request sent: {"method": "subscribe", "params": {"channel": "states_list"}}
+2024-10-21 18:22:16,790 - INFO - Response received: {"echo_req":{"method":"subscribe","params":{"channel":"states_list"}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:22:16,790 - INFO - Received response: {'echo_req': {'method': 'subscribe', 'params': {'channel': 'states_list'}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:22:16,790 - INFO - SUCCESS - test_TC003_UT_Send_Valid_Request
+2024-10-21 18:22:17,056 - INFO - WebSocket connection closed.
+2024-10-21 18:22:17,056 - INFO - WebSocket connection closed.
+2024-10-21 18:22:17,938 - INFO - WebSocket connection established.
+2024-10-21 18:22:17,938 - INFO - WebSocket connection opened.
+2024-10-21 18:22:17,938 - INFO - Sending invalid request: {'method': 'invalid', 'params': {}}
+2024-10-21 18:22:17,939 - INFO - Request sent: {"method": "invalid", "params": {}}
+2024-10-21 18:22:18,319 - INFO - Response received: {"echo_req":{"method":"invalid","params":{}},"error":{"code":"UnrecognisedRequest","message":"Unrecognised request"},"msg_type":"error"}
+2024-10-21 18:22:18,319 - INFO - Received response: {'echo_req': {'method': 'invalid', 'params': {}}, 'error': {'code': 'UnrecognisedRequest', 'message': 'Unrecognised request'}, 'msg_type': 'error'}
+2024-10-21 18:22:18,320 - INFO - SUCCESS - test_TC004_UT_Send_Invalid_Request
+2024-10-21 18:22:18,648 - INFO - WebSocket connection closed.
+2024-10-21 18:22:18,648 - INFO - WebSocket connection closed.
+2024-10-21 18:22:19,572 - INFO - WebSocket connection established.
+2024-10-21 18:22:19,572 - INFO - WebSocket connection opened.
+2024-10-21 18:22:19,572 - INFO - Attempting to open WebSocket connection with invalid URL.
+2024-10-21 18:22:19,583 - ERROR - Failed to establish WebSocket connection: [Errno 8] nodename nor servname provided, or not known
+2024-10-21 18:22:19,584 - INFO - SUCCESS - test_TC005_UT_Connection_Timeout
+2024-10-21 18:22:19,859 - INFO - WebSocket connection closed.
+2024-10-21 18:22:19,859 - INFO - WebSocket connection closed.

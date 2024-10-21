@@ -1,0 +1,56 @@
+# WebSocket Test Automation Framework
+
+This framework is designed for testing WebSocket APIs with advanced features for scalability and robust reporting.
+
+## Prerequisites
+
+- Python 3.8+
+- pip (Python package manager)
+
+## Setup Instructions
+
+1. Clone this repository:
+    ```bash
+    git clone <repo-url>
+    cd <repo-directory>
+    ```
+
+2. **Create a Virtual Environment**:
+    ```bash
+    python -m venv myenv
+    ```
+
+3. **Activate the Virtual Environment**:
+    - **On macOS and Linux**:
+        ```bash
+        source myenv/bin/activate
+        ```
+    - **On Windows**:
+        ```bash
+        .\myenv\Scripts\activate
+        ```
+
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Configure the WebSocket URL and request payloads in `configs/config.json`.
+
+## Running Tests
+
+1. To execute the test cases and generate an HTML report, use:
+    ```bash
+    pytest --html=reports/test_reports.html
+    ```
+
+2. View logs in the `logs/test.log` file to track test execution.
+
+## Directory Structure
+
+- **configs/config.json**: Contains configuration details like WebSocket URLs, valid/invalid requests.
+- **logs/**: Stores test execution logs.
+- **reports/**: Contains HTML test reports.
+- **tests/**: Holds the WebSocket test scripts.
+- **utils/**: Contains helper functions for WebSocket operations and reporting.
+- **requirements.txt**: Python dependencies.
