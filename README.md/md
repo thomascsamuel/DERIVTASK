@@ -1,56 +1,44 @@
 # WebSocket Test Automation Framework
 
-This framework is designed for testing WebSocket APIs with advanced features for scalability and robust reporting.
+This framework is designed to help you test WebSocket APIs efficiently. It includes features that make it easy to run tests and generate clear reports.
 
-## Prerequisites
+## What You Need Before Starting
 
-- Python 3.8+
-- pip (Python package manager)
+- **Python 3.8 or higher**: Make sure you have Python installed on your computer.
+- **pip**: This is a tool for installing Python packages.
 
-## Setup Instructions
+## How to Set It Up
 
-1. Clone this repository:
-    ```bash
-    git clone <repo-url>
-    cd <repo-directory>
-    ```
+1. **Clone the Repository**:
+   - Open your terminal (or command prompt) and run the following commands:
+     ```bash
+     git clone https://github.com/thomascsamuel/WebsocketTASK.git
+     cd WebcoketTASK
+     ```
 
-2. **Create a Virtual Environment**:
-    ```bash
-    python -m venv myenv
-    ```
+2. **Check the python version**:
+   -  make sure it is python version 3
+      -  python3 --version
+
+3. **Create virtual environment**:
+      - python3 -m venv myenv
 
 3. **Activate the Virtual Environment**:
-    - **On macOS and Linux**:
-        ```bash
+    - This step is important to use the packages installed in the virtual environment.
+       - On macOS and Linux:
         source myenv/bin/activate
-        ```
-    - **On Windows**:
-        ```bash
+
+       - On Windows:
         .\myenv\Scripts\activate
-        ```
 
-4. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+4. **Install Required Dependencies**:
+    - This will set up everything needed to run the tests.
+        - pip install -r requirements.txt
 
-5. Configure the WebSocket URL and request payloads in `configs/config.json`.
 
-## Running Tests
-
-1. To execute the test cases and generate an HTML report, use:
-    ```bash
-    pytest --html=reports/test_reports.html
-    ```
-
-2. View logs in the `logs/test.log` file to track test execution.
-
-## Directory Structure
-
-- **configs/config.json**: Contains configuration details like WebSocket URLs, valid/invalid requests.
-- **logs/**: Stores test execution logs.
-- **reports/**: Contains HTML test reports.
-- **tests/**: Holds the WebSocket test scripts.
-- **utils/**: Contains helper functions for WebSocket operations and reporting.
-- **requirements.txt**: Python dependencies.
+5. **Running Tests**:       
+    - Execute the Test Cases:
+        - Run the following command to execute the tests:
+            - pytest -v
+        - Run the following command to start the tests and create a report:
+            - pytest --html=reports/test_reports.html
